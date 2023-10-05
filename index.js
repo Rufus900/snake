@@ -35,15 +35,15 @@ let delay=0;
 }; */
 document.getElementById("submit").onclick = function() {
     if(document.getElementById("r1").checked){
-        delay=15
+        delay=150
         running=true
         resetGame();
     } else if(document.getElementById("r2").checked){
-        delay=10
+        delay=100
         running=true
         resetGame();
     } else if(document.getElementById("r3").checked){
-        delay=5
+        delay=50
         running=true
         resetGame();
     }
