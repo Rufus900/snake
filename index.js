@@ -39,7 +39,7 @@ document.getElementById("submit").onclick = function() {
         running=true
         resetGame();
     } else if(document.getElementById("r2").checked){
-        delay=100
+        delay=10
         running=true
         resetGame();
     } else if(document.getElementById("r3").checked){
